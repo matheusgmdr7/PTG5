@@ -101,7 +101,7 @@ const LandingPage: React.FC = () => {
                 Login
               </Link>
               <Link
-                to="/register"
+                to="/signup"
                 className="px-6 py-2.5 bg-gradient-to-r from-violet-800 to-fuchsia-800 hover:from-violet-700 hover:to-fuchsia-700 text-white rounded-xl transition-all duration-300 font-medium relative overflow-hidden group shadow-md hover:shadow-lg hover:shadow-violet-600/20"
               >
                 <span className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.4),transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
@@ -174,7 +174,7 @@ const LandingPage: React.FC = () => {
                   Login
                 </Link>
                 <Link
-                  to="/register"
+                  to="/signup"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block w-full px-4 py-2 text-center bg-gradient-to-r from-violet-800 to-fuchsia-800 hover:from-violet-700 hover:to-fuchsia-700 text-white rounded-lg transition-colors"
                 >
@@ -621,7 +621,7 @@ const LandingPage: React.FC = () => {
               <div className="p-8 border-b border-violet-900/30">
                 <h3 className="text-xl font-bold mb-2 text-white">Essencial</h3>
                 <div className="flex items-end gap-1">
-                  <span className="text-4xl font-bold text-white">R$49</span>
+                  <span className="text-4xl font-bold text-white">R$99</span>
                   <span className="text-gray-400 mb-1">/mês</span>
                 </div>
                 <p className="text-sm text-gray-400 mt-2">Perfeito para traders iniciantes</p>
@@ -659,13 +659,15 @@ const LandingPage: React.FC = () => {
                     <span>Recomendações avançadas</span>
                   </li>
                 </ul>
-                <Link
-                  to="/signup"
-                  className="w-full mt-8 px-4 py-3 border border-violet-600 text-violet-400 hover:text-violet-300 hover:bg-violet-900/30 rounded-lg transition-all duration-300 font-medium group-hover:border-violet-500 relative overflow-hidden group shadow-sm hover:shadow-md hover:shadow-violet-900/20 transform hover:-translate-y-1"
-                >
-                  <span className="absolute inset-0 bg-gradient-to-r from-violet-600/5 to-fuchsia-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-                  <span className="relative z-10">Começar Agora</span>
-                </Link>
+                <div className="pt-10">
+                  <Link
+                    to="/signup"
+                    className="w-full px-4 py-3 border border-violet-600 text-violet-400 hover:text-violet-300 hover:bg-violet-900/30 rounded-lg transition-all duration-300 font-medium group-hover:border-violet-500 relative overflow-hidden group shadow-sm hover:shadow-md hover:shadow-violet-900/20 transform hover:-translate-y-1"
+                  >
+                    <span className="absolute inset-0 bg-gradient-to-r from-violet-600/5 to-fuchsia-600/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+                    <span className="relative z-10">Começar Agora</span>
+                  </Link>
+                </div>
               </div>
             </div>
 
@@ -677,7 +679,7 @@ const LandingPage: React.FC = () => {
               <div className="p-8 border-b border-violet-800/30">
                 <h3 className="text-xl font-bold mb-2 text-white">Premium</h3>
                 <div className="flex items-end gap-1">
-                  <span className="text-4xl font-bold text-white">R$99</span>
+                  <span className="text-4xl font-bold text-white">R$149</span>
                   <span className="text-gray-400 mb-1">/mês</span>
                 </div>
                 <p className="text-sm text-gray-400 mt-2">Para traders sérios e dedicados</p>
@@ -715,14 +717,16 @@ const LandingPage: React.FC = () => {
                     <span className="text-gray-300">Alertas em tempo real</span>
                   </li>
                 </ul>
-                <Link
-                  to="/signup"
-                  className="w-full mt-8 px-4 py-3 bg-gradient-to-r from-violet-800 to-fuchsia-800 hover:from-violet-700 hover:to-fuchsia-700 text-white rounded-lg transition-all duration-300 font-medium relative overflow-hidden group shadow-lg shadow-violet-700/20 hover:shadow-violet-600/40 transform hover:-translate-y-1"
-                >
-                  <span className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.4),transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-                  <span className="absolute -inset-1 bg-gradient-to-r from-violet-600/50 to-fuchsia-600/50 rounded-lg blur opacity-0 group-hover:opacity-30 transition-opacity duration-300 -z-10"></span>
-                  <span className="relative z-10">Começar Agora</span>
-                </Link>
+                <div className="pt-10">
+                  <Link
+                    to="/signup"
+                    className="w-full px-4 py-3 bg-gradient-to-r from-violet-800 to-fuchsia-800 hover:from-violet-700 hover:to-fuchsia-700 text-white rounded-lg transition-all duration-300 font-medium relative overflow-hidden group shadow-lg shadow-violet-700/20 hover:shadow-violet-600/40 transform hover:-translate-y-1"
+                  >
+                    <span className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.4),transparent_70%)] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
+                    <span className="absolute -inset-1 bg-gradient-to-r from-violet-600/50 to-fuchsia-600/50 rounded-lg blur opacity-0 group-hover:opacity-30 transition-opacity duration-300 -z-10"></span>
+                    <span className="relative z-10">Começar Agora</span>
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
@@ -776,7 +780,8 @@ const LandingPage: React.FC = () => {
               <p className="text-gray-400">
                 Nossa IA avançada pode começar a fornecer insights básicos com apenas 3-5 operações. Para análises
                 comportamentais quânticas, 10-15 operações já fornecem resultados com alta confiança. Para análises
-                hiperdimensionais completas e recomendações preditivas, 30+ operações são ideais.
+                hiperdimensionais completas e recomendações preditivas confiança. Para análises hiperdimensionais
+                completas e recomendações preditivas, 30+ operações são ideais.
               </p>
             </div>
 
