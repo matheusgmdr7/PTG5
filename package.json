@@ -1,10 +1,11 @@
 {
-  "name": "my-v0-project",
+  "name": "PTG TRADER",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "vite dev",
     "build": "vite build",
+    "preview": "vite preview",
     "start": "next start",
     "lint": "next lint"
   },
