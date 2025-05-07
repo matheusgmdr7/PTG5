@@ -214,7 +214,7 @@ const LandingPage: React.FC = () => {
                 por IA
               </h1>
               <p className="text-xl text-gray-400 mb-8 leading-relaxed">
-                Maximize seus lucros e minimize perdas com nossa IA de gerenciamento de risco para traders.
+                Maximize seus lucros e minimize perdas com nosso sistema inteligente de gerenciamento de risco para traders.
               </p>
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 w-full sm:w-auto">
                 <Link
@@ -283,7 +283,7 @@ const LandingPage: React.FC = () => {
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4 tracking-tight">Tecnologia de Ponta para Traders</h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              Nossa plataforma futurista oferece tudo o que você precisa para dominar os mercados.
+              Niveis de risco, leitura comportamental e o poder da IA para corrigir o que te impede de lucrar.
             </p>
           </div>
 
@@ -299,8 +299,7 @@ const LandingPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Gerenciamento de Risco</h3>
               <p className="text-gray-400 mb-4">
-                Algoritmos avançados de IA protegem seu capital com limites dinâmicos de risco e alertas preditivos
-                antes que problemas ocorram.
+                Com níveis de risco inteligentes, nossa tecnologia te conduz à consistência e ao lucro, protegendo seu capital e evitando exposições exageradas.
               </p>
               <a
                 href="#"
@@ -321,8 +320,8 @@ const LandingPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Análise Comportamental</h3>
               <p className="text-gray-400 mb-4">
-                Nossa IA identifica padrões invisíveis em seu comportamento de trading e prevê tendências futuras com
-                precisão inédita.
+                Nossa tecnologia identifica padrões invisíveis em seu comportamento de trading e prevê tendências futuras com muita
+                precisão.
               </p>
               <a
                 href="#"
@@ -343,8 +342,7 @@ const LandingPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Recomendações Preditivas</h3>
               <p className="text-gray-400 mb-4">
-                Algoritmos de machine learning de última geração fornecem insights personalizados Sobre o seu
-                comportamento.
+               Receba insights personalizados com base no seu comportamento e histórico de operações.
               </p>
               <a
                 href="#"
@@ -365,7 +363,7 @@ const LandingPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Análise de Performance</h3>
               <p className="text-gray-400 mb-4">
-                Visualize seu desempenho em operacoes de uma forma totalmente clara e responsiva.
+                Visualize seu desempenho em operações de forma clara, intuitiva e totalmente responsiva.
               </p>
               <a
                 href="#"
@@ -386,8 +384,7 @@ const LandingPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Assistente de Performance</h3>
               <p className="text-gray-400 mb-4">
-                Utilize a integracão com o assitente para avaliar em tempo real a sua performance e receber
-                recomendações personalizadas.
+               Utilize a integração com um assistente de IA para avaliar sua performance em tempo real e receber recomendações personalizadas.
               </p>
               <a
                 href="#"
@@ -408,7 +405,7 @@ const LandingPage: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold mb-3 text-white">Chat de Interação</h3>
               <p className="text-gray-400 mb-4">
-                Utilize o caht para interagir com seu assitente de operações, para recomendações precisas.
+                Interaja com o assistente de IA pelo chat e peça dicas e sugestões sempre que precisar.
               </p>
               <a
                 href="#"
@@ -433,7 +430,7 @@ const LandingPage: React.FC = () => {
             </div>
             <h2 className="text-3xl sm:text-4xl font-bold mb-4 tracking-tight">Como Funciona</h2>
             <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-              Em apenas quatro passos simples, você pode transformar completamente sua abordagem ao trading.
+              Com apenas quatro passos, você assume todo o controle e começa a ter resultados reais.
             </p>
           </div>
 
@@ -447,8 +444,7 @@ const LandingPage: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-4 mt-4 text-white">Sincronização</h3>
                 <p className="text-gray-400">
-                  Conecte sua conta de corretora através de nossa API de sincronização e importe seus históricos de
-                  trades instantaneamente.
+                  Conecte sua corretora via API e deixe nossa inteligência começar a ler suas operações e transformar seus resultados.
                 </p>
               </div>
               <div className="hidden lg:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
@@ -465,8 +461,7 @@ const LandingPage: React.FC = () => {
                 </div>
                 <h3 className="text-xl font-bold mb-4 mt-4 text-white">Leitura de Dados</h3>
                 <p className="text-gray-400">
-                  Nossa IA analisa seu perfil de trading e calibra automaticamente os parâmetros ideais para seu estilo
-                  único de operação.
+                  Nossa inteligência analisa seu perfil e ajusta automaticamente o nível de risco ideal para começar a proteger suas operações.
                 </p>
               </div>
               <div className="hidden lg:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
@@ -481,9 +476,9 @@ const LandingPage: React.FC = () => {
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.4),transparent_70%)]"></div>
                   <span className="relative z-10">3</span>
                 </div>
-                <h3 className="text-xl font-bold mb-4 mt-4 text-white">Selecione o Gerencimento</h3>
+                <h3 className="text-xl font-bold mb-4 mt-4 text-white">Níveis de Gerenciamento</h3>
                 <p className="text-gray-400">
-                  Nossa plataforma possue nivies de gerenciamento, que te permintem evoluir, nos seus tardes.
+                 Nossa plataforma oferece níveis de gerenciamento que se adaptam à sua performance e evolução como trader.
                 </p>
               </div>
               <div className="hidden lg:block absolute top-1/2 right-0 transform translate-x-1/2 -translate-y-1/2 z-10">
@@ -752,13 +747,12 @@ const LandingPage: React.FC = () => {
             {/* FAQ Item 1 */}
             <div className="bg-gradient-to-br from-black to-violet-950/20 rounded-2xl border border-violet-900/30 p-8 shadow-lg backdrop-blur-sm group hover:border-violet-700/50 transition-all duration-300">
               <h3 className="text-lg font-medium mb-3 text-white">
-                Como o sistema de gerenciamento de risco neural funciona?
+                Como o sistema de gerenciamento de risco funciona?
               </h3>
               <p className="text-gray-400">
-                Nosso sistema utiliza algoritmos de aprendizado de máquina para monitorar suas operações em tempo real e
-                aplicar limites dinâmicos com base no seu perfil de risco. Se você exceder esses limites, o sistema pode
-                restringir novas operações em nanossegundos, protegendo seu capital antes que perdas significativas
-                ocorram.
+                Nossa plataforma oferece níveis de gerenciamento que permitem sua evolução como trader, sem exposição desnecessária.
+                Por meio da conexão com sua exchange, nossa tecnologia analisa seu comportamento em tempo real para aplicar limites 
+                ou liberar aumentos de exposição quando necessário, tudo para te conduzir à consistência e ao lucro com segurança.
               </p>
             </div>
 
@@ -766,9 +760,9 @@ const LandingPage: React.FC = () => {
             <div className="bg-gradient-to-br from-black to-violet-950/20 rounded-2xl border border-violet-900/30 p-8 shadow-lg backdrop-blur-sm group hover:border-violet-700/50 transition-all duration-300">
               <h3 className="text-lg font-medium mb-3 text-white">Com quais corretoras a plataforma é compatível?</h3>
               <p className="text-gray-400">
-                Nossa plataforma utiliza tecnologia de sincronização quântica compatível com todas as principais
-                corretoras do mercado, incluindo MetaTrader 4/5, TradingView, Binance, XP Investimentos, Clear e muitas
-                outras. Nossa API de última geração permite integração instantânea e sem falhas.
+               Nossa plataforma se conecta diretamente às principais corretoras de cripto, como Binance e Bybit, 
+                através de uma API de integração segura e em tempo real. Essa conexão permite que nossa tecnologia 
+                leia suas operações com precisão e aplique gestão de risco inteligente sem interferir na sua autonomia como trader.
               </p>
             </div>
 
@@ -778,10 +772,9 @@ const LandingPage: React.FC = () => {
                 Quantas operações são necessárias para obter insights úteis?
               </h3>
               <p className="text-gray-400">
-                Nossa IA avançada pode começar a fornecer insights básicos com apenas 3-5 operações. Para análises
-                comportamentais quânticas, 10-15 operações já fornecem resultados com alta confiança. Para análises
-                hiperdimensionais completas e recomendações preditivas confiança. Para análises hiperdimensionais
-                completas e recomendações preditivas, 30+ operações são ideais.
+               Nossa IA avançada começa a gerar insights básicos com apenas 3 a 5 operações.
+               Com 10 a 15 operações, ela já fornece análises comportamentais precisas com alto nível de confiança.
+               A partir de 30 operações, a IA entrega análises completas e recomendações preditivas altamente confiáveis.
               </p>
             </div>
 
@@ -792,7 +785,7 @@ const LandingPage: React.FC = () => {
               </h3>
               <p className="text-gray-400">
                 Sim, você pode cancelar sua assinatura a qualquer momento sem taxas ou penalidades. Oferecemos um
-                período de teste gratuito de 14 dias para que você possa experimentar todos os recursos avançados antes
+                período de teste gratuito de 07 dias para que você possa experimentar todos os recursos avançados antes
                 de decidir.
               </p>
             </div>
@@ -801,9 +794,9 @@ const LandingPage: React.FC = () => {
             <div className="bg-gradient-to-br from-black to-violet-950/20 rounded-2xl border border-violet-900/30 p-8 shadow-lg backdrop-blur-sm group hover:border-violet-700/50 transition-all duration-300">
               <h3 className="text-lg font-medium mb-3 text-white">Meus dados estão seguros?</h3>
               <p className="text-gray-400">
-                Absolutamente. Utilizamos criptografia quântica de ponta a ponta e seguimos os mais rigorosos padrões de
+                Absolutamente. Utilizamos criptografia de ponta a ponta e seguimos os mais rigorosos padrões de
                 segurança. Seus dados nunca são compartilhados com terceiros e você tem controle total sobre suas
-                informações através do nosso Firewall Financeiro.
+                informações.
               </p>
             </div>
           </div>
@@ -825,7 +818,7 @@ const LandingPage: React.FC = () => {
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               Junte-se a milhares de traders que estão transformando seus resultados com nossa plataforma de
-              gerenciamento de risco neural e análise comportamental quântica.
+              gerenciamento de risco para traders que desejam ser consistentes e lucrativos.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 w-full sm:w-auto">
               <Link
@@ -844,7 +837,7 @@ const LandingPage: React.FC = () => {
                 <span className="relative z-10">Saiba Mais</span>
               </a>
             </div>
-            <p className="text-sm text-gray-400 mt-6">Não é necessário cartão de crédito. 14 dias de teste grátis.</p>
+            <p className="text-sm text-gray-400 mt-6">Teste por 07 dias.</p>
           </div>
         </div>
       </section>
@@ -871,7 +864,7 @@ const LandingPage: React.FC = () => {
                 </div>
               </div>
               <p className="text-gray-400 mb-6">
-                Transformando traders através de gerenciamento de risco neural e análise comportamental quântica.
+                Transformando traders com gerenciamento de risco inteligente e análise comportamental avançada.
               </p>
               <div className="flex space-x-4">
                 <a
