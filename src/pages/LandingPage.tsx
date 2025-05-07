@@ -837,7 +837,7 @@ const LandingPage: React.FC = () => {
                 <span className="relative z-10">Saiba Mais</span>
               </a>
             </div>
-            <p className="text-sm text-gray-400 mt-6">Teste por 07 dias.</p>
+            <p className="text-sm text-gray-400 mt-6">Teste por 07 dias gratis.</p>
           </div>
         </div>
       </section>
